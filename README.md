@@ -7,6 +7,9 @@ python run.py --mode <mode> --dataset <dataset> --classifiers <num_classifiers> 
   --num_classes <num_classes> --num_of_iterations <iterations> --real_data <real_data>
   --max_samples <max_samples> --start_index_of_iteration <start_index>
 ```
+
+## Argument Explanation
+
 |Argument	|Description|
 |-------	|-------|
 |--mode	| Specifies which script to run. Must be one of: ozabag or goowe.|
@@ -19,14 +22,11 @@ python run.py --mode <mode> --dataset <dataset> --classifiers <num_classifiers> 
 |--start_index_of_iteration |	Useful for resuming from a specific iteration index.|
 
 
-Example
+## Example
+
 ```bash
 python run.py --mode ozabag --dataset rialto.csv --classifiers 16 \
   --num_classes 10 --num_of_iterations 1 --real_data 1
 ```
 
-This command will run the OzaBag.py script using a real dataset rialto.csv with:
-
-16 classifiers
-7 classes
-1 iterations
+This command will run the OzaBag.py script using a real dataset rialto.csv with: 16 classifiers, 10 classes, 1 iterations.
