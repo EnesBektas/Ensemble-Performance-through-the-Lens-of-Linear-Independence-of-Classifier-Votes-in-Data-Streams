@@ -2,6 +2,9 @@
 
 ## Usage
 
+This script serves as a launcher for running either the `OzaBag.py` or `experiment.py` script, based on the provided `--mode` argument. It allows users to configure and execute GOOWE or OzaBag data stream classifier tests through command-line parameters.
+
+
 ```bash
 python run.py --mode <mode> --dataset <dataset> --classifiers <num_classifiers> \
   --num_classes <num_classes> --num_of_iterations <iterations> --real_data <real_data>
